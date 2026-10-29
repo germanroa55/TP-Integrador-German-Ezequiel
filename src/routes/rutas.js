@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Producto = require('../models/Producto');
+const Producto = require('../models/productos.js');
 
 // Traer todos los productos activos (postman)
 router.get('/productos', async (req, res) => {
