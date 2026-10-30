@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('./sequelize');
+const sequelize = require('../models/sequelize');
 
 const Producto = sequelize.define('Producto', {
     nombre: { type: DataTypes.STRING, allowNull: false },
