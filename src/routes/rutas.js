@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Producto = require('../models/Producto');
+const Producto = require('../models/productos.js');
 
 // 1. Endpoint para traer todos los productos activos
 router.get('/productos', async (req, res) => {
